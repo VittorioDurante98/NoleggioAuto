@@ -9,7 +9,7 @@ public class TestSimulator {
 	public static void main(String args[]) {
 		Simulator sim = new Simulator();
 		
-		sim.setNumCars(13) ;
+		sim.setNumCars(10) ;
 		sim.setClientFrequency(Duration.of(10, ChronoUnit.MINUTES)) ;
 		
 		sim.run() ;
